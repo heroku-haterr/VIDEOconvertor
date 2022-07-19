@@ -17,7 +17,7 @@ from .. import Drone
 from telethon import events, Button
 from LOCAL.localisation import START_TEXT as st
 from LOCAL.localisation import JPG0 as file
-from LOCAL.localisation import info_text, spam_notice, help_text, source_text, SUPPORT_LINK
+from LOCAL.localisation import info_text, spam_notice, help_text, SUPPORT_LINK
 from ethon.teleutils import mention
 from ethon.mystarts import vc_menu
 
@@ -42,12 +42,12 @@ async def info(event):
 async def notice(event):
     await event.answer(f'{spam_notice}', alert=True)
     
-@Drone.on(events.callbackquery.CallbackQuery(data="source"))
-async def source(event):
-    await event.edit(source_text,
-                    buttons=[[
-                         Button.url("FOR FREE", url="lol"),
-                         Button.url("FOR PREMIUM ", url="lol")]])
+
+
+
+
+
+
                     
 @Drone.on(events.callbackquery.CallbackQuery(data="help"))
 async def help(event):
