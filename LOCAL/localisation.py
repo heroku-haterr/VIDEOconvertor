@@ -27,7 +27,7 @@ help_text = """**v1.4**
 
 •`Trim` - cut your videos"""
 
-source_text = "**Deploy your own bot**"
+source_text = "**Deploy your own bot losers**"
 
 DEV = "https://t.me/BL00DSH0T"
 
